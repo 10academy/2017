@@ -1,0 +1,20 @@
+body {
+    padding-top: 70px;
+}
+
+.img-center {
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    margin: 50px auto;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
