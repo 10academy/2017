@@ -1,0 +1,39 @@
+
+h1{
+      font-size:25px;
+      color:blue;
+      }
+h2 {
+  font-size:25px;
+   color:blue; 
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  .bordered {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+  
+  }
+
+.Container {
+  background:grey;
+  margin:0 auto ;
+  width: 60% ;
+  padding:20px ;
+   box-shadow: 10px 10px 5px #000;
+   
+}
+
+body {
+    background-image: url("background.JPG");
+    background-repeat: repeat-y;
+}
+.body{
+  font:verdana
+}
+

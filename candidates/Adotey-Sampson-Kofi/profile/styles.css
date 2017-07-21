@@ -1,0 +1,43 @@
+body{
+  background-color: orange;
+        }
+img{
+  text-align: center;
+margin: 0 auto
+}
+p{
+  font-size:20; font-family:tahoma;text-align:justify;
+        }
+        a{
+          font-size:20; font-family:tahoma;text-align:justify;
+                }
+  h1{font-size: 25; font-family: tahoma; text-align: center}
+  h2{font-size: 25; font family:tahoma; text-align: center;}
+  .left{
+    float: left;
+    width: 50%
+      }
+  .right{
+    float: right;
+    width: 50%;
+    text-align: justify;
+        }
+  .profilepic{
+    float: right;
+    padding-right: 30px;
+  }
+  .container{
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+  h1{
+    text-align: center;
+  }
+  h3{
+    text-align: center; font-family: tahoma
+  }
+  h4{
+    text-align: center;font-family: tahoma; font-size: 20
+    }
+p{font-size: 20; font-family: tahoma; text-align: justify;}
+li{font-size: 20; font-family: tahoma; text-align: justify;}

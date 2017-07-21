@@ -1,0 +1,45 @@
+body{
+background-color: #778899;
+}
+img{
+text-align: center;
+margin: 0 auto ;
+width: 550px
+}
+.rotate0 {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+}
+p{
+font-size: 20; font-family: cursive; text-align: left;	
+}
+.left{
+	float: left;
+	width: 50%;
+}
+.right{
+float: right;
+width: 50%;
+text-align: justify;	
+}
+.Profilepic{
+float: right;
+margin: 20px;
+}
+.container{
+margin: 0 auto;
+padding: 0 98px;	
+}
+
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+h1{
+	margin-left: 35%;
+}
