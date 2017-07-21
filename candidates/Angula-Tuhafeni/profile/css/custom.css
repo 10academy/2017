@@ -1,0 +1,33 @@
+h1, p{
+	color: #663300; /*brown*/
+	/*font-family: Georgia;*/
+}
+h1{
+	font-size: 3.5em;
+	text-shadow: 2px 1px #804000;
+}
+p{
+	font-size: 1.6em;
+}
+
+@media (min-width: 1200px){
+	.container{
+		width: 1000px;
+	}
+}
+.header{
+	background-color: #ff9933; /*orange*/
+}
+
+.footer{
+	background-color: #ff9933;
+}
+.carousel-caption{
+	background-color: #ffffff;
+	font-size: 12px;
+	opacity: 0.7;
+}
+.carousel-caption h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,64 @@
+.row {
+     hight: 600px:
+     backgroung-color: #ccff99
+     width: 330px
+}      
+.image Nada.jpg{
+       hight: 30%
+       backgroung-color: #cc6600
+}       
+.card {
+  
+
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-family: arial;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.description {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+h1 {
+  font-family: 'Give You Glory', cursive;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+
+}
+.image{width: 50%;
+	float: right;
+}
+.links{ 
+	color: #4d94ff
+ }

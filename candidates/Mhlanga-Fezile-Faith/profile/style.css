@@ -1,0 +1,55 @@
+h1 {
+		font-size: 50px;
+		font-style: bold;
+		font: "Times New Roman";
+		color: 	#a48623
+	}
+	body {
+	background-color: #e6e6ff
+	}
+	.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+	}
+	.left {
+		width: 50%;
+		float: left;
+	}
+	.right {
+		width: 50%;
+		float: right;
+	}
+}
+	.small {
+		font-size: 15px;
+	}
+	.header {
+		height: 63%;
+	}
+	.content  {
+		height: 80%;
+		border-top: 2px solid #a48623; 
+	}
+	.footer  {
+		height: 65%;
+		border-top: 2px solid #a48623;  
+	}
+	h2 {
+		font size: 25px;
+		font-style: bold;
+		font: "Times New Roman";
+		color: 	#a48623
+	}
+	p {
+		font-size: 20px
+		text-align: justify;
+	}
+	img {
+		border:2px solid #9c9c9c
+	}
+	.shift {
+		margin: 15px;
+	}

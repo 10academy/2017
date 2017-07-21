@@ -1,0 +1,97 @@
+
+.different {
+  font-size: 20px;
+  margin-left: -38px;
+font-family: 'Roboto', sans-serif;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+.nospace{
+  margin-top: -30px;
+  text-align: center;
+  font-style: italic;
+    font-family: 'Crimson Text', serif;
+      font-variant: small-caps;
+      font-weight: bold;
+}
+.name{
+  font-variant: small-caps;
+  font-size: 40px;
+  font-family: 'Crimson Text', serif;
+}
+h1 {
+  text-align: center;
+  font-size: 23px;
+    font-family: 'Crimson Text', serif;
+      font-variant: small-caps;
+      font-weight: bold;
+}
+a:hover {
+  background-color: #FFFFFF;
+}
+p{
+  font-size: 20px;
+  margin-top: -10px;
+font-family: 'Roboto', sans-serif;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+body{
+  background-color:#D95E50;
+}
+h2{
+  font-size: 23px;
+  text-align: left;
+    font-family: 'Crimson Text', serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.left{
+  float:left;
+  width: 50%;
+  padding-left: 40px;
+}
+.right{
+  float:right;
+  width: 40%;
+  padding-left: 60px;
+}
+.change{
+border-style: solid;
+margin-top: 20px;
+}
+.edit{
+  font-size: 20px;
+}
+.border{
+  border-style: solid;
+  margin-bottom: 20px;
+}
+.row{
+  width: 100%;
+  clear: both;
+}
+.footer{
+  clear: both;
+  border-top: 2px solid black;
+  margin-bottom: : 20px;
+}
+.whyi {
+  padding-top: 0px;
+  padding-left: 250px;

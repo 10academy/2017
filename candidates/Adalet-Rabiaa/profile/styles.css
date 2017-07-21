@@ -1,0 +1,126 @@
+#name {
+    font-family: namefont;
+    font-size: 40px;
+	color:#D5DBDB;
+	text-align:right;
+	margin-right:50px;
+	margin-top:20px;
+}
+
+@font-face {
+    font-family: namefont;
+    src: url(gotham_regular_bold.ttf);
+}
+
+#mainImage{
+	float:left;
+	width:326px;
+	height:458px;
+	margin-left:100px;
+	margin-top:20px;
+}
+
+#img{
+	width:35px;
+	height:35px;
+}
+
+#tagline{
+	font-family: verdana;
+    font-size: 14px;
+	color:#fff;
+	text-align:right;
+	margin-right:50px;
+	font-style: italic;
+	margin-top:-35px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(lobster_regular.ttf);
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+#divleft{
+	width: 50%;
+	height: 700px;
+	background-color:lightblue;
+	float: left;
+	left:0px;
+	background-image: url("blackbackground.jpg");
+}
+
+#profileImage{
+	width:214px;
+	height:224px;
+	margin-left:235px;
+	margin-top:30px;
+}
+
+#divright1{
+	width: 50%;
+	height: 700px;
+	background-color:white;
+	float:right;
+	right:0px;
+}
+
+#divright{
+	width: 50%;
+	height: 700px;
+	float:right;
+	right:0px;
+	background-image: url("blackbackground.jpg");
+}
+
+#desc{
+	color:white;
+	text-align:justify;
+	font-family:verdana;
+	font-size:16px;
+	margin-right:16px;
+	margin-left:16px;
+}
+
+#summary{
+	color:white;
+	text-align:justify;
+	font-family:myFirstFont;
+	font-size:20px;
+	margin-right:16px;
+	margin-left:16px;
+	margin-top:30px;
+}
+
+.aboutBtn {
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:namefont;
+	font-size:15px;
+	font-weight:normal;
+	padding:11px 25px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	margin-left:53px;
+	margin-top:230px;
+}
+
+.contactBtn {
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:namefont;
+	font-size:15px;
+	font-weight:normal;
+	padding:11px 18px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+	margin-left:53px;
+	margin-top:-10px
+}
+

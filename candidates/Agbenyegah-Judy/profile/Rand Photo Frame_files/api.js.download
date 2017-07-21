@@ -1,0 +1,71 @@
+var spApiUrl = 'https://shinyprints.com/api.php';
+var spApiOrderUrl = 'https://shinyprints.com/apiorder.php';
+
+(function() {
+    var fileref=document.createElement("link");
+    fileref.setAttribute("rel", "stylesheet");
+    fileref.setAttribute("type", "text/css");
+    fileref.setAttribute("href", 'https://shinyprints.com/css/simplemodal.css');
+    document.getElementsByTagName("head")[0].appendChild(fileref);
+
+	if (typeof jQuery == 'undefined') {
+		var script = document.createElement("SCRIPT");
+		script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js';
+		script.type = 'text/javascript';
+		document.getElementsByTagName("head")[0].appendChild(script);
+	}
+
+    var checkReady = function(callback) {
+        if (window.jQuery) {
+            callback(jQuery);
+        }
+        else {
+            window.setTimeout(function() { checkReady(callback); }, 100);
+        }
+    };
+    
+    checkReady(function($) {
+
+        var script = document.createElement("SCRIPT");
+        script.src = 'https://shinyprints.com/ext/jquery/jquery.simplemodal.1.4.4.min.js';
+        script.type = 'text/javascript';
+        document.getElementsByTagName("head")[0].appendChild(script);        
+
+		$(function () {
+			$('.sp-buy').click(function () {
+				var img = $(this).attr('data-img');
+                var url_return = $(this).attr('data-return');
+                var url_cancel = $(this).attr('data-cancel');
+                var sizes = $(this).attr('data-sizes');
+                var t = new Date();
+				jQuery.noConflict();
+                $.modal('<div><iframe id="spPopIFrame" src="' + spApiOrderUrl + '?img=' + img + '&return=' + url_return + '&cancel=' + url_cancel + '&sizes=' + sizes + '&aid=' + $('#cp-store-root').attr('data-aid') + '&com=' + $('#cp-store-root').attr('data-com') + '&t=' + t.getTime() + '" style="border:0px; height: 100%; width: 100%; display: block;"></iframe></div>', {
+                    minWidth:'300px', 
+                    minHeight:'300px', 
+                    onShow: function(dialog) {
+                        // fix iframe height
+                        $('#spPopIFrame').parent().height($('#simplemodal-container').height());
+                    }
+                });
+
+                // https://store.canvaspop.com/api/pull?image_url=/static/img/live/example-horizontal-1.jpg&amp;access_key=9f996492835ea08744a570b78e3c870d
+
+                /*
+				$.ajax({
+				    url: spApiUrl + '?action=checkImage&img=' + img,
+				    data: {},
+				    type: 'GET',
+  					jsonpCallback: 'jsonCallback',
+    				contentType: "application/json",
+				    crossDomain: true,
+				    dataType: 'jsonp',
+				    success: function(data) { console.log(data); },
+				    error: function(data) {},
+				});
+                */
+			});
+		});
+    });
+})();
+
+

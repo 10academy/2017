@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+	<title> Rabiaa Adalet</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="divleft">
+	<p id="name">Rabiaa Adalet </p>
+	<p id="tagline"> Engineer interested in Business Innovation and Project Management </p>
+	<img id="mainImage" src="rabiaa.jpg" >
+	
+	
+	<a href="#" onclick = "myFunction()" class="aboutBtn">Home</a><br>
+	<a href="Rabiaa_Adalet_CV.pdf" class="contactBtn">About Me</a><br>
+	
+	<a href="https://www.facebook.com/rabiaa.adalet" target="_blank"><img id="img" src="facebook.jpg" style="margin-left:40px"/></a>
+	<a href="https://twitter.com/AdaletRabiaa" target="_blank" ><img id="img" src="twitter.jpg" style="margin-left:10px"/></a>
+	<a href="https://www.instagram.com/adalet.rabiaa/" target="_blank" ><img id="img" src="instagram.jpg" style="margin-left:10px"/></a>
+	
+	
+</div>
+
+<div id="divright">
+<img id="profileImage" src="pic.png" >
+
+	<p id="summary"> "Seeking to be inspired, to envision the unlikely, to work hard for things that are worth it, and to be surrounded by those who
+	bring the best in me." </p>
+	
+	<p id="desc"> On an interpersonal level, Rabiaa is an innovative and highly motivated young woman, who enjoys working with a creative and productive team. 
+	She is enthusiastic to broaden her knowledge about things and swift to grasp and develop new ideas. She loves getting things done in the best 
+	possible and presentable manner. In terms of projects delivery, She is able to work with minimal supervision and can deliver output to meet tight 
+	deadlines.<br><br>
+	Social entrepreneurship wise, she is a youth leadership advocate involved in youth-led projects in Tunisia.</p>
+
+</div>
+
+<div id="divright1"  style="display: none;">
+
+
+
+</div>
+
+<script>
+function myFunction() {
+    var contact = document.getElementById('divright1');
+	var about = document.getElementById('divright');
+	about.style.display = 'block';
+	contact.style.display = 'none';
+}
+
+function myFunction1() {
+    var contact = document.getElementById('divright1');
+	var about = document.getElementById('divright');
+	about.style.display = 'none';
+	contact.style.display = 'block';
+}
+
+</script>
+
+</body>
+
+</html>
