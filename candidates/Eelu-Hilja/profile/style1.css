@@ -1,0 +1,57 @@
+*{
+  font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+font-size: 40px;
+font-weight: bold;
+}
+img{
+  border-style: dotted;
+  border-radius: 140px;
+  border-width: medium;
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+ul{
+  list-style-type: none;
+}
+.id1, .id2, .id3{
+  padding: 0px;
+  margin: 0;
+  /*margin-top: 0px;*/
+}
+h3{
+  font-style: italic;
+  font-variant: small-caps;
+}
+#wrapper{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0 auto;
+  max-width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: #5ca9b2;
+  box-shadow: 0 15px 15px 15px #5ca9b2;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 120%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+body {
+  padding: 0;
+  margin: 0
+}
