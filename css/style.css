@@ -2,6 +2,10 @@ body {
     padding-top: 70px;
 }
 
+a {
+    color: #000000;
+}
+
 footer {
     margin: 50px auto;
     text-align: center;
